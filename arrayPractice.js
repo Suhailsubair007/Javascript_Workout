@@ -8,9 +8,6 @@
 // }
 // console.log(sum);
 
-
-
-
 //Find the Maximum Element:
 
 // const array = [2,4,6,7,12,89,43,23,65,90]
@@ -25,9 +22,6 @@
 // }
 // console.log(largest);
 
-
-
-
 //Reverse an Array:
 
 // const arr = [1,2,3,4,5,90,65,12];
@@ -36,10 +30,6 @@
 //     reverded.push(arr[i]);
 // }
 // console.log(reverded);
-
-
-
-
 
 //Count Occurrences:
 
@@ -55,9 +45,6 @@
 // }
 
 // console.log(count);
-
-
-
 
 //Check if Array Contains a Value:
 
@@ -75,11 +62,7 @@
 // let result = containsValue(array, value);
 // console.log(result);  // Output: true
 
-
-
-
 //Remove Duplicates:
-
 
 // const orginalArry = [1,2,3,4,5,6,1,2]
 // const newArry = new Set([...orginalArry])
@@ -107,17 +90,14 @@
 // console.log(unique);
 // console.log(dupli);
 
-
-
-//merge two arrays 
+//merge two arrays
 
 // const array1 = [1,2,3,4]
 // const arry2 = [5,6,7,8]
 // const merged = [...array1,...arry2]
 // console.log(merged);
 
-
-//Filter odd and even 
+//Filter odd and even
 
 // const arry = [1,2,3,4,5,6,7,8,9,10]
 // const odd= []
@@ -135,10 +115,28 @@
 // console.log(odd);
 // console.log(even);
 
-
-
-
-
 //Sort an Array:
 
+// const array = [5, 7, 3, 90, 21, 65, 34, 90, 43, 12, 77, 33, 12, 94];
+// const sorted = array.sort((a, b) => b - a);
+// console.log(sorted);
 
+
+// const array = [5, 7, 3, 90, 21, 65, 34, 90, 43, 12, 77, 33, 12, 94];
+// let sorted = [];
+// let temp;
+// for (let i = 0; i < array.length - 1; i++) {
+//   for (let j = i + 1; j < array.length; j++) {
+//     if (array[i] > array[j]) {
+//       temp = array[i];
+//       array[i] = array[j];
+//       array[j] = temp;
+//     }
+//   }
+// }
+
+// for (let i = 0; i < array.length; i++) {
+//   sorted.push(array[i]);
+// }
+
+// console.log(sorted);
