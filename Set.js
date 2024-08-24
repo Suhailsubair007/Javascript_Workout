@@ -5,7 +5,7 @@ roadmap.add('JavaScript');
 roadmap.add('dynamic');
 roadmap.add(1995);
 roadmap.add(1995);
-
+console.log(roadmap);
 console.log(roadmap.size); // 3, because the value 'JavaScript' is already present in the set
 console.log(roadmap.has('JavaScript')); // true
 
