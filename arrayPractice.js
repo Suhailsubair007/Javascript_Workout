@@ -121,7 +121,6 @@
 // const sorted = array.sort((a, b) => b - a);
 // console.log(sorted);
 
-
 // const array = [5, 7, 3, 90, 21, 65, 34, 90, 43, 12, 77, 33, 12, 94];
 // let sorted = [];
 // let temp;
@@ -140,3 +139,80 @@
 // }
 
 // console.log(sorted);
+
+//return largest legth word from a string
+
+// let str = 'suhail subair is a hardworking boy';
+// let wordarray = str.split(' ');
+// // console.log(wordarray);
+// let large = '';
+
+// for(let x of wordarray){
+//     if(x.length > large.length)
+//     {
+//         large = x
+//     }
+// }
+// console.log(large);
+
+// split arry eqal halfs
+
+// const array = [1,2,3,4,5,6]
+// const a1 =[]
+// const a2 = []
+// if(array.length %2 !== 0 ){
+//     throw new Error('hihihihhhihiiihh')
+// }
+
+// for(let i = 0;i<array.length;i++)
+// {
+//     if(i<array.length/2){
+//         a1.push(array[i])
+//     }else{
+//         a2.push(array[i])
+//     }
+// }
+
+// console.log(a1);
+// console.log(a2);
+
+
+//cout the number of duplicate elements in array
+
+// let arr = [1, 3, 2, 4, 5, 6, 7, 2, 3, 7];
+// let count = 0;
+// let  duplicate = []
+
+// for(let i=0;i<arr.length;i++)
+// {
+//     for(let j = i+1; j<arr.length;j++){
+//         if(arr[i] === arr[j])
+//         {
+//             duplicate.push(arr[i])
+//             count++
+//             break;
+//         }
+//     }
+// }
+// console.log(count);
+// console.log(duplicate);
+
+
+
+// frequecy or occurance 
+
+// const orginalArry = [1,2,3,4,5,3,2,1,6,7,8,6,5,9,10];
+// const freqency = {}
+
+// for(let i =0;i<orginalArry.length;i++)
+// {
+//     let element = orginalArry[i]
+//     if(freqency[element])
+//     {
+//         freqency[element]++;
+//     }else{
+//         freqency[element]=1;
+//     }
+// }
+
+// console.log(freqency);
